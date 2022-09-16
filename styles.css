@@ -14,15 +14,72 @@ h1 {
     justify-content: center;
 }
 main {
-    /* height: 100%; */
+    height: 100%;
     flex: 1;
-    background-color: wheat;
-    
+    background-color: white;
 }
+main div {
+/* padding: 0 0 0px 40px;     */
+background-color: blueviolet;
+
+}
+ main div p {
+background-color: rgb(92, 152, 130);
+ }
+
+main.a button {
+    grid-column: 2;
+    height: 50px;
+    width: 100px;
+    background-color: aqua;
+}
+/* img  {
+  object-fit:fill;
+  background-repeat:no-repeat;
+   
+} */
+
+
+
+
+
+
+
+main.b {
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+}
+main.b section div.img {
+    margin: 0px;
+    padding: 0px;
+  
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+}
+
 footer {
-height: 80px;
-background-color: plum;
+    display: grid;
+    grid-template-columns: 1fr,1fr;
+    background-color: rgb(238, 141, 249);
 }
+footer div button {
+height: 50px;
+width: 50px;
+
+}
+footer div.buttons {
+    grid-column: 2;
+    display: flex;
+}
+
+footer button.social {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+
 header nav ul {
     border: 1px solid black;
     display: flex;

@@ -1,0 +1,20 @@
+.main-container {
+    border: 2px solid green;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    height: 150px;
+    background-color: firebrick;
+}
+main {
+    height: 100%;
+    flex: 1;
+    background-color: wheat;
+    
+}
+footer {
+height: 80px;
+background-color: plum;
+}
