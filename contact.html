@@ -4,12 +4,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./contact-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Lobster&family=Monoton&family=Ultra&family=Varela+Round&display=swap" rel="stylesheet">
     <title>Contact</title>
 </head>
 <body>
 
 <header>
-    <h1>LETS KEEP IN TOUCH</h1>
+    <div id="header">Mustacchio</div>
+    
         <nav>
             <ul>
                 <li><button>Home</li></button>
@@ -21,13 +25,14 @@
             </nav>
         <div class="Hamburgernav"></div>
 </header>
-
+<div id="title">Let's Keep In Touch</div>
 <main>
-    <input type="text">Name <br>
-    <input type="text">Address <br>
-    <input type="text">Email <br>
-    <input type="text">Phone Number <br>
-    <textarea name="Message" id="Message" cols="30" rows="10"></textarea>Message <br><br>
+    <input class="contact" type="text" value="Name"> <br>
+    <input class="contact" type="text" value="Address"> <br>
+    <input class="contact" type="text" value="Email"> <br>
+    <input class="contact" type="text" value="Phone Number"> <br>
+    <br>
+    <textarea class="contact" name="Message" id="Message" cols="30" rows="10">Message</textarea> <br><br>
     <button>Send</button>
 </main>
     

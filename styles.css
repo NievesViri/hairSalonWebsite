@@ -1,46 +1,98 @@
 .main-container {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 header {
     height: 150px;
-    background-color: firebrick;
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+}
+
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    list-style: none;
+margin:10px 230px 10px 230px;
+font-size: medium;
+}
+nav ul li button {
+    border: none;
+    background-color: white;
+    font-family: none;
+    
+}
+nav ul li button:hover {
+    color: rgb(63, 237, 237);
+    cursor: pointer;
+    
+    
 }
 h1 {
     display: flex;
-    align-items: center;
     justify-content: center;
 }
-main {
-    height: 100%;
-    flex: 1;
-    background-color: white;
-}
-main div {
-/* padding: 0 0 0px 40px;     */
-background-color: blueviolet;
 
+
+h2 {
+    position: absolute;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    margin-left: 760px;
+    margin-top: 80px;
+   color: white;
+   background-color: black;
+   
 }
- main div p {
-background-color: rgb(92, 152, 130);
- }
+
+main div {
+/* background-color: blueviolet; */
+display: flex;
+justify-content: flex-start;
+flex-direction:row;
+/* align-items: flex-start; */
+}
+
+h4 {
+    position: absolute;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    /* flex-direction: column; */
+    margin-left: 700px;
+    margin-top: 150px;
+   color: white;
+   background-color: black;
+   font-size: x-large;
+}
+ 
 
 main.a button {
-    grid-column: 2;
+    /* grid-column: 2; */
     height: 50px;
     width: 100px;
-    background-color: aqua;
+    background-color: rgb(63, 237, 237);
+    font-size: medium;
+    margin-top: 300px;
+    margin-left: 857px;
+    position: absolute;
+    border: none;
 }
-/* img  {
-  object-fit:fill;
-  background-repeat:no-repeat;
-   
-} */
+/* //bottom// */
 
-
-
+h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue';
+    font-size: x-large;
+}
 
 
 
@@ -49,11 +101,11 @@ main.b {
     display: flex;
     flex-flow:row wrap;
     justify-content: space-around;
+    margin-top: 20px;
 }
 main.b section div.img {
     margin: 0px;
     padding: 0px;
-  
     border: 1px solid black;
     height: 250px;
     width: 250px;
@@ -62,34 +114,28 @@ main.b section div.img {
 footer {
     display: grid;
     grid-template-columns: 1fr,1fr;
-    background-color: rgb(238, 141, 249);
+    background-color:black;
+    color: white;
 }
-footer div button {
-height: 50px;
-width: 50px;
 
-}
-footer div.buttons {
+
+footer ul {
+    list-style: none;
     grid-column: 2;
     display: flex;
+    justify-content: space-evenly;
+    padding-right: 70px;
+    margin-left: 80px;
 }
 
-footer button.social {
-    display: flex;
-    flex-flow: row nowrap;
-}
-
-
-header nav ul {
-    border: 1px solid black;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:space-around;
-    list-style: none;
-
+footer ul li img{
+    
+    background-color: white;
     
 }
+
+
+
 @media (max-width: 576px) {
 header nav {    
     display: none;
