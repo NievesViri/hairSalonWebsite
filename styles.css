@@ -46,17 +46,17 @@ h2 {
     flex-direction: column;
     margin-left: 760px;
     margin-top: 80px;
-   color: white;
-   background-color: black;
+   color: black;
+   background-color: white;
    
 }
 
 main div {
-/* background-color: blueviolet; */
+
 display: flex;
 justify-content: flex-start;
 flex-direction:row;
-/* align-items: flex-start; */
+
 }
 
 h4 {
@@ -64,7 +64,6 @@ h4 {
     display: flex;
     align-items:center;
     justify-content:center;
-    /* flex-direction: column; */
     margin-left: 700px;
     margin-top: 150px;
    color: white;
@@ -136,8 +135,14 @@ footer ul li img{
 
 
 
-@media (max-width: 576px) {
-header nav {    
-    display: none;
+@media (max-width: 568px) {
+header {    
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    font-size: small;
 }
+
 }
+
+
