@@ -5,6 +5,7 @@
     flex-direction: column;
 } */
 body {
+    height: 100%;
     margin: 0 auto;
     /* padding: 24px 0 0; */
     width: 620px;
@@ -12,31 +13,32 @@ body {
 
 
 #header {
-margin: 0 auto;
-padding: 44px 0 50px;
+/* margin: 0 auto; */
+padding: 44px 10px 40px ;
 text-align: center;
-width: 960px;
+width: 600px;
 text-transform: uppercase;
-font-family: 'Allura', cursive;
+font-family: 'Dancing Script', cursive;
 font-size: 50px;
-
+margin-right: 200px;
 }
 
 #title {
-margin: 0 auto;
-padding: 44px 0 50px;
+/* margin-right: 60px; */
+padding: 40px 10px 40px 10px;
 text-align: center;
-width: 960px;
+/* width: 960px; */
 text-transform: uppercase;
 font-family: 'Varela Round', sans-serif;
 background-color: black;
 color: white;
 font-size: x-large;
-
+margin-right: 30px;
 }
 
 nav ul {
 list-style: none;
+
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -48,6 +50,7 @@ li button {
 border: none;
 background-color: transparent;
 text-transform: uppercase;
+color: black;
 }
 li button:hover {
     color: turquoise;
@@ -62,31 +65,52 @@ li button:hover {
     text-align: center;
     text-transform: uppercase;
     width: 596px;
-  
+    margin-top: 20px;  
 }
  button {
     color: white;
     background-color: black;
-    height: 50px;
-    width: 100px;
+    /* height: 50px; */
+    /* width: 100px; */
+    margin-right: 45px;
     
  }
 
-main {
-    height: 100%;
-    flex: 1;
-    background-color: wheat;
+/* main {
+    /* height: 100%; */
+    /* flex: 1; */
+    /* background-color: wheat; */
+ .send {
+    margin-bottom: 60px;
+    height: 50px;
+    width: 70px;
+ }   
     
-    
-}
-
-
+ 
 footer {
-    background: #252525;
-    margin: 0;
-    padding: 36px 0 42px; 
+    /* display: grid; */
+    /* grid-template-columns: 1fr,1fr; */
+    background-color:black;
     color: white;
 }
+
+
+footer ul {
+    list-style: none;
+    grid-column: 2;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 70px;
+    margin-left: 80px;
+}
+
+footer ul li img{
+    
+    background-color: white;
+    
+}
+
+
 
 
 
