@@ -117,11 +117,30 @@ div img {
     padding: 0px 40px 20px 50px;
     
 }
-@media (max-width 390px) {
-   nav ul li {
+@media (max-width: 390px) {
+   nav ul  {
  display: flex;
 flex-direction: column;
+align-items: flex-start;
+
 
    } 
-    
 }
+@media (max-width:390px) {
+    div image {
+        display: flex;
+        justify-content: flex-end;
+        align-items:flex-start;
+        flex-direction: column;
+    
+        
+    }
+}
+@media (max-width: 620px ) {
+    #table1 {
+        display: flex;
+        align-items: flex-start;
+        justify-content:center;
+    } 
+}
+ 
